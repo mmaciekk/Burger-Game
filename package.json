@@ -1,0 +1,25 @@
+{
+  "name": "furry_game",
+  "version": "0.0.1",
+  "description": "<img alt=\"Logo\" src=\"http://coderslab.pl/svg/logo-coderslab.svg\" width=\"400\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmaciekk/WRO_FER_S_10_Furry_Game.git"
+  },
+  "author": "maceik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmaciekk/WRO_FER_S_10_Furry_Game/issues"
+  },
+  "homepage": "https://github.com/mmaciekk/WRO_FER_S_10_Furry_Game#readme",
+  "scripts": {
+    "webpack:watch": "./node_modules/.bin/webpack --watch js/app.js js/out.js"
+  },
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
+}
